@@ -10,28 +10,35 @@
 <body>
     <header>
         <h1>Valerie Flores</h1>
-        <div>
+        
+        <div id="links">
         <a href="index.html">About</a>
         <a href="portfolio.html">Portfolio</a>
         <a href="contact.html">Contact</a>
         </div>
     </header>
             
-    <div>
+    <div id="container">
         <h2>Contact</h2>
-
-        <form action="#" alt=placeholder>
-            Name:<br>
-            <input type="text" name="Name" value="">
+        <hr>
+        <br>
+        <form id="form" action="#" alt=placeholder>
+            Name
             <br>
-            Email:<br>
-            <input type="text" name="Email" value="">
-            <br>
-            Message:<br>
-            <input type="text" name="Message" value="">
+            <input class="input" type="text" name="Name" value="John Doe">
             <br>
             <br>
-            <input type="submit" value="Submit">
+            Email
+            <br>
+            <input class="input" type="text" name="Email" value="sample@email.com">
+            <br>
+            <br>
+            Message
+            <br>
+            <textarea class="input" id="message" name="message"></textarea>
+            <br>
+            <br>
+            <input id="submit" type="submit" value="Submit">
         </form>  
     </div>
 

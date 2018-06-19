@@ -1,0 +1,163 @@
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin: -2% -1% 0 -1%;
+    padding-top: 35px;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 10px;
+    margin: 0 900px 0 250px;
+}
+
+h2 {
+    margin-left: 30px;
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+hr {
+    width: 900px;
+    background-color: lightgray;
+    height: 1px;
+    border: 0;
+}
+
+#links {
+    font-size: 18px;
+    float: right;
+    overflow: auto;
+    margin: -70px 150px 0 0;
+    word-spacing: 25px;
+    padding-top: 25px;
+}
+
+a:link, a:active, a:visited {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+a:hover {
+    color: #4aaaa5;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+body {
+    background-color: lightgray;
+    border-color: #dddddd;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#container {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    width: 960px;
+    margin-left: 240px;
+    padding-bottom: 30px;
+    clear: both;
+}
+
+#headshot {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding-right: 10px;
+    margin-left: 30px;
+}
+
+p {
+    margin: 0px 30px;
+    line-height: 2;
+}
+
+footer {
+    background-color: #666666;
+    color: #ffffff;
+    margin: 50px -1% -5% -1%;
+    text-align: center;
+    font-size: 14px;
+    padding: 25px 25px 0px 25px;
+    border-top: 10px solid #4aaaa5;
+}
+
+#form {
+    margin-left: 30px;
+    color:#777777;
+    overflow: auto;
+    display: block;
+    clear: both;
+}
+
+.input {
+    width: 900px;
+    color: lightgray;
+    line-height: 2;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 100px;
+    line-height: 2;
+}
+
+#message {
+    height: 160px;
+}
+
+#container-2 {
+    position: relative;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    width: 960px;
+    height: 800px;
+    margin-left: 240px;
+    padding-bottom: 30px;
+}
+
+.box {
+    position: absolute;
+}
+
+.box-1 {
+    left: 30px;  
+}
+
+.box-2 {
+    left: 32%;
+}
+
+.box-3 {
+    left: 30px;
+    top: 40%;
+}
+
+.box-4 {
+    left: 32%;
+    top: 40%;
+}
+
+.box-5 {
+    left: 30px;
+    top: 67%;
+}
+
+.center-bottom {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 15px 50px;
+    width: 150px;
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
